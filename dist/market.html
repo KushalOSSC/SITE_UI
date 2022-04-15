@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="build.css" rel="stylesheet" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body class="bg-[#1A1A1C]">
+    <header class="2xl:h-[100px] flex items-center bg-[#27272c]">
+      <nav
+        class="h-full flex mx-[50px] justify-between w-full items-center flex-wrap"
+      >
+        <div class="logo flex justify-center flex-col mb-4">
+          <a href="#">
+            <h1 class="font-[Roboto] text-[40px] text-white mx-[8px]">LOGO</h1>
+            <div class="bg-[#fff] h-[5px]" id="line"></div>
+          </a>
+        </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="menu-button"
+          class="cursor-pointer 2xl:hidden block text-white w-10 h-9"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          ></path>
+        </svg>
+        <ul
+          class="2xl:flex hidden items-center justify-evenly text-white text-[24px] font-[Roboto] 2xl:w-[600px] w-full mt-[50px] 2xl:mt-0 h-[600px] 2xl:h-auto flex-col 2xl:flex-row"
+          id="menu"
+        >
+          <li
+            class="cursor-pointer duration-150 ease-out border-b-4 border-[#27272c] hover:border-white"
+          >
+            <a href="index.html"> HOME </a>
+          </li>
+          <li
+            class="cursor-pointer duration-150 ease-out border-b-4 border-[#27272c] hover:border-white"
+          >
+            <a href="market.html"> FAQ </a>
+          </li>
+          <li
+            class="cursor-pointer duration-150 ease-out border-b-4 border-[#27272c] hover:border-white"
+          >
+            JOIN NOW
+          </li>
+          <li
+            class="cursor-pointer duration-150 ease-out border-b-4 border-[#27272c] hover:border-white"
+          >
+            WHY US
+          </li>
+          <li
+            class="cursor-pointer duration-150 ease-out border-b-4 border-[#27272c] hover:border-white"
+          >
+            ABOUT
+          </li>
+          <li
+            class="2xl:hidden cursor-pointer duration-150 ease-out border-b-4 border-[#27272c] hover:border-white text-orange-500"
+          >
+            SIGN IN
+          </li>
+          <li
+            class="2xl:hidden cursor-pointer duration-150 ease-out border-b-4 border-[#27272c] hover:border-white text-orange-600"
+          >
+            SIGN UP
+          </li>
+        </ul>
+        <div
+          class="2xl:flex hidden nav-buttons justify-between items-center w-[25%]"
+        >
+          <button
+            class="rounded-full bg-[#9500ff] h-[60px] w-[160px] duration-150 text-white text-[24px] font-[Roboto] hover:bg-[#6a00ff]"
+          >
+            Log In
+          </button>
+          <button
+            class="rounded-full bg-[#9500ff] h-[60px] w-[160px] duration-150 text-white text-[24px] font-[Roboto] hover:bg-[#6a00ff]"
+          >
+            Sign In
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="flex flex-col items-center mt-12" id="best-seller-div">
+        <div
+          class="2xl:w-[350px] lg:w-[300px] md:w-[240px] sm:w-[200px] w-[150px] flex flex-col justify-between text-center"
+        >
+          <h1
+            class="text-white text-[Roboto] 2xl:text-[56px] lg:text-[46px] md:text-[30px] text-[26px]"
+          >
+            Best Sellers
+          </h1>
+          <div class="bg-[#fff] h-[4px] 2xl:h-[8px] lg:h-[6px]" id="line"></div>
+        </div>
+        <div
+          class="mt-24 flex flex-wrap justify-center gap-x-40 gap-y-20 text-[#fff] font-[Roboto]"
+          id="best-seller-boxes"
+        >
+          <div class="card" id="best-seller-box">
+            <h3>The Hound of the Baskervilles</h3>
+            <img src="img/book-picture2.jpg" alt="" />
+            <div class="buttons-wrapper" id="buttons-wrapper">
+              <button class="card-button bg-[#4F4F52] hover:bg-[#6e6d6d]">
+                Details
+              </button>
+              <button
+                class="card-button bg-[#dfd519] hover:bg-[#fff200] text-black"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card" id="best-seller-box">
+            <h3>Fifty Shades of Grey</h3>
+            <img src="img/book-picture1.png" alt="" />
+            <div class="buttons-wrapper" id="buttons-wrapper">
+              <button class="card-button bg-[#4F4F52] hover:bg-[#6e6d6d]">
+                Details
+              </button>
+              <button
+                class="card-button bg-[#dfd519] hover:bg-[#fff200] text-black"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card" id="best-seller-box">
+            <h3>Fifty Shades of Grey</h3>
+            <img src="img/book-picture1.png" alt="" />
+            <div class="buttons-wrapper" id="buttons-wrapper">
+              <button class="card-button bg-[#4F4F52] hover:bg-[#6e6d6d]">
+                Details
+              </button>
+              <button
+                class="card-button bg-[#dfd519] hover:bg-[#fff200] text-black"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card" id="best-seller-box">
+            <h3>Fifty Shades of Grey</h3>
+            <img src="img/book-picture1.png" alt="" />
+            <div class="buttons-wrapper" id="buttons-wrapper">
+              <button class="card-button bg-[#4F4F52] hover:bg-[#6e6d6d]">
+                Details
+              </button>
+              <button
+                class="card-button bg-[#dfd519] hover:bg-[#fff200] text-black"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card" id="best-seller-box">
+            <h3>Fifty Shades of Grey</h3>
+            <img src="img/book-picture1.png" alt="" />
+            <div class="buttons-wrapper" id="buttons-wrapper">
+              <button class="card-button bg-[#4F4F52] hover:bg-[#6e6d6d]">
+                Details
+              </button>
+              <button
+                class="card-button bg-[#dfd519] hover:bg-[#fff200] text-black"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card" id="best-seller-box">
+            <h3>Fifty Shades of Grey</h3>
+            <img src="img/book-picture1.png" alt="" />
+            <div class="buttons-wrapper" id="buttons-wrapper">
+              <button class="card-button bg-[#4F4F52] hover:bg-[#6e6d6d]">
+                Details
+              </button>
+              <button
+                class="card-button bg-[#dfd519] hover:bg-[#fff200] text-black"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card" id="best-seller-box">
+            <h3>Fifty Shades of Grey</h3>
+            <img src="img/book-picture1.png" alt="" />
+            <div class="buttons-wrapper" id="buttons-wrapper">
+              <button class="card-button bg-[#4F4F52] hover:bg-[#6e6d6d]">
+                Details
+              </button>
+              <button
+                class="card-button bg-[#dfd519] hover:bg-[#fff200] text-black"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="card" id="best-seller-box">
+            <h3>Fifty Shades of Grey</h3>
+            <img src="img/book-picture1.png" alt="" />
+            <div class="buttons-wrapper" id="buttons-wrapper">
+              <button class="card-button bg-[#4F4F52] hover:bg-[#6e6d6d]">
+                Details
+              </button>
+              <button
+                class="card-button bg-[#dfd519] hover:bg-[#fff200] text-black"
+              >
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
